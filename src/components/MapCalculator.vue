@@ -43,8 +43,8 @@
         Distance: {{ distance }} km
       </p>
     </div>
-    <!-- <div id="map" class="w-full h-[600px] mt-4"></div> -->
-    <!-- <div
+    <div id="map" class="w-full h-[600px] mt-4"></div>
+    <div
       v-if="directions"
       class="w-full max-w-2xl p-4 border rounded shadow mt-4"
     >
@@ -52,7 +52,7 @@
       <ul>
         <li v-for="(step, index) in directions" :key="index">{{ step }}</li>
       </ul>
-    </div> -->
+    </div>
   </div>
 </template>
 
